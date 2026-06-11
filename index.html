@@ -1,12 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>Foton TM7 Safety Certificate</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foton TM7 安全证书</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: #fff;
+            padding: 10px;
+        }
+        .cert-img {
+            max-width: 100%;
+            max-height: 85vh;
+            object-fit: contain;
+            border: none;
+        }
+        .footer {
+            margin-top: 15px;
+            font-size: 14px;
+            text-align: center;
+        }
+        .footer a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+    </style>
 </head>
-<body style="margin:0; padding:0; display:flex; flex-direction:column; align-items:center; min-height:100vh;">
-    <h3>福田TM7安全证书</h3>
-    <p><a href="Mandatory Safety Items Certificate (ECE)_TM7(1).pdf" download>点击下载证书PDF</a ></p >
-    <p><a href="https://www.foton.com.cn" target="_blank">福田汽车官方网站</a ></p >
+<body>
+    <!-- 把 cert.jpg 换成你的图片文件名 -->
+    < img class="cert-img" src="TM7 Certificate.jpg" alt="福田TM7安全证书">
+
+    <div class="footer">
+        <a href="https://www.foton.com.cn" target="_blank">福田汽车官方网站</a >
+    </div>
 </body>
 </html>
