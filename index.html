@@ -1,40 +1,43 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foton TM7 安全证书</title>
+    <title>Foton TM7 Chile Safety Certificate</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            min-height: 100vh;
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            overflow: hidden;
             display: flex;
             flex-direction: column;
-            align-items: center;
-            background: #fff;
-            padding: 10px;
         }
-        .cert-img {
-            max-width: 100%;
-            max-height: 85vh;
-            object-fit: contain;
+        iframe {
+            flex: 1;
+            width: 100%;
             border: none;
         }
         .footer {
-            margin-top: 15px;
-            font-size: 14px;
             text-align: center;
+            padding: 10px 0;
+            font-size: 14px;
         }
         .footer a {
             color: #0066cc;
             text-decoration: none;
         }
+        .footer a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
-    <!-- 把 cert.jpg 换成你的图片文件名 -->
-    < img src="TM7Certificate.JPG" alt="福田TM7安全证书">
+    <iframe src="Mandatory Safety Items Certificate (ECE)_TM7 (1).pdf" type="application/pdf">
+        <p>Your browser does not support PDFs. <a href=" ">Click here to download the certificate.</a ></p >
+    </iframe>
 
+    <!-- 底部福田官网链接，把 href 换成真实福田官网地址 -->
     <div class="footer">
         <a href="https://www.foton.com.cn" target="_blank">福田汽车官方网站</a >
     </div>
