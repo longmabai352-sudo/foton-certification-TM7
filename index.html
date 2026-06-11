@@ -5,22 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foton TM7 Safety Certificate</title>
     <style>
-        html, body {
+        body {
             margin: 0;
             padding: 0;
-            height: 100vh;
-            overflow: hidden;
+            min-height: 100vh;
             display: flex;
             flex-direction: column;
+            align-items: center;
+            background: #fff;
         }
-        iframe {
-            flex: 1;
-            width: 100%;
-            border: none;
+        .cert-img {
+            max-width: 100%;
+            max-height: 85vh;
         }
         .footer {
-            text-align: center;
-            padding: 10px 0;
+            margin: 15px 0;
             font-size: 14px;
         }
         .footer a {
@@ -33,11 +32,9 @@
     </style>
 </head>
 <body>
-    <iframe src="Mandatory Safety Items Certificate (ECE)_TM7 (1).pdf" type="application/pdf">
-        <p>Your browser does not support PDFs. <a href=" ">Click here to download the certificate.</a ></p >
-    </iframe>
+    <!-- 此处改为你的图片完整名称 -->
+    < img class="TM7 Certificate" src="cert.jpg" alt="Certificate">
 
-    <!-- 底部福田官网链接，把 href 换成真实福田官网地址 -->
     <div class="footer">
         <a href="https://www.foton.com.cn" target="_blank">福田汽车官方网站</a >
     </div>
