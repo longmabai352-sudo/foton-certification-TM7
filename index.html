@@ -3,26 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foton TM7 Safety Certificate</title>
+    <!-- 浏览器标题，就是你要的英文 -->
+    <title>Foton TM7 Chile Safety Certificate</title>
     <style>
-        body {
+        html, body {
             margin: 0;
             padding: 0;
-            background-color: #ffffff;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
+            height: 100vh;
+            overflow: hidden;
         }
-        img {
-            max-width: 100%;
-            max-height: 100vh;
-            object-fit: contain;
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
         }
     </style>
 </head>
 <body>
-    <!-- 把这里的文件名，改成你上传的图片名字 -->
-    < img src="Mandatory Safety Items Certificate (ECE)_TM7 (1)" alt="Foton TM7 Safety Certificate">
+    <!-- 这里的文件名要改成你上传的 PDF 完整名字 -->
+    <iframe src="Mandatory Safety Items Certificate (ECE)_TM7 (1).pdf" 
+            title="Foton TM7 Safety Certificate"
+            type="application/pdf">
+        <p>Your browser does not support PDFs. <a href=" ">Click here to download the certificate.</a ></p >
+    </iframe>
 </body>
 </html>
